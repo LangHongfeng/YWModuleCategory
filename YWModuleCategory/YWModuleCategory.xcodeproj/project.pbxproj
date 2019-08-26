@@ -44,7 +44,6 @@
 		0B1234D52313B7C70053D640 /* NSArray+SHYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1234B12313B7C70053D640 /* NSArray+SHYUtil.m */; };
 		0B1234D62313B7C70053D640 /* NSTimer+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1234B42313B7C70053D640 /* NSTimer+Category.m */; };
 		0B1234D72313B7C70053D640 /* NSObject+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1234B72313B7C70053D640 /* NSObject+Alert.m */; };
-		0B1234D82313B7C70053D640 /* GVUserDefaults+YWProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1234B92313B7C70053D640 /* GVUserDefaults+YWProperties.m */; };
 		52AC830599E8A0F4D7D5C6F1 /* Pods_YWModuleCategory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A606DFE7AD5983D654A7DCF /* Pods_YWModuleCategory.framework */; };
 /* End PBXBuildFile section */
 
@@ -141,8 +140,6 @@
 		0B1234B42313B7C70053D640 /* NSTimer+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Category.m"; sourceTree = "<group>"; };
 		0B1234B62313B7C70053D640 /* NSObject+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Alert.h"; sourceTree = "<group>"; };
 		0B1234B72313B7C70053D640 /* NSObject+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Alert.m"; sourceTree = "<group>"; };
-		0B1234B92313B7C70053D640 /* GVUserDefaults+YWProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GVUserDefaults+YWProperties.m"; sourceTree = "<group>"; };
-		0B1234BA2313B7C70053D640 /* GVUserDefaults+YWProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GVUserDefaults+YWProperties.h"; sourceTree = "<group>"; };
 		6A606DFE7AD5983D654A7DCF /* Pods_YWModuleCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YWModuleCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C9F8D55911521E76364E1D /* Pods-YWModuleCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWModuleCategory.debug.xcconfig"; path = "Target Support Files/Pods-YWModuleCategory/Pods-YWModuleCategory.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -247,7 +244,6 @@
 				0B1234AD2313B7C70053D640 /* NSArray */,
 				0B1234B22313B7C70053D640 /* NSTimer */,
 				0B1234B52313B7C70053D640 /* NSObject */,
-				0B1234B82313B7C70053D640 /* GVUserDefault */,
 			);
 			name = Pods;
 			path = ../../Pods;
@@ -407,15 +403,6 @@
 				0B1234B72313B7C70053D640 /* NSObject+Alert.m */,
 			);
 			path = NSObject;
-			sourceTree = "<group>";
-		};
-		0B1234B82313B7C70053D640 /* GVUserDefault */ = {
-			isa = PBXGroup;
-			children = (
-				0B1234B92313B7C70053D640 /* GVUserDefaults+YWProperties.m */,
-				0B1234BA2313B7C70053D640 /* GVUserDefaults+YWProperties.h */,
-			);
-			path = GVUserDefault;
 			sourceTree = "<group>";
 		};
 		0EC8A8C3DFDEB71889676A2B /* Frameworks */ = {
@@ -623,7 +610,6 @@
 				0B1233E3231387530053D640 /* main.m in Sources */,
 				0B1234CA2313B7C70053D640 /* NSString+DisplayTime.m in Sources */,
 				0B1234C52313B7C70053D640 /* UIView+BGFrame.m in Sources */,
-				0B1234D82313B7C70053D640 /* GVUserDefaults+YWProperties.m in Sources */,
 				0B1234CE2313B7C70053D640 /* NSString+Predicate.m in Sources */,
 				0B1234BE2313B7C70053D640 /* UILabel+YBAttributeTextTapAction.m in Sources */,
 				0B1234C42313B7C70053D640 /* UIView+Category.m in Sources */,

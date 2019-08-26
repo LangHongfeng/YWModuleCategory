@@ -3,37 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01686953CD3D80119BE2E79E920E21C0 /* SDAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6520ED71E3A7F7D58E7EB0E972666F0F /* SDAutoLayout-dummy.m */; };
-		0323B4E4699BEA9C742ADAD2B13E7C6A /* GVUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBDA48E3DAA3B7F72DC088CA92A4533 /* GVUserDefaults.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0919CD095F20BF31598B74EA1CEB7351 /* GVUserDefaults-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F9CCDFCE59E4DA59BA24FB94ADEEB9E /* GVUserDefaults-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35F6718EDBEEE12863616EE81C63D894 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		4644FBDF5B0F473034065C42E3AE7BE3 /* GVUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = C0D6D4CAE3941176743346836690D094 /* GVUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F7A7E7060578A2E22141D37FCD0E99C /* UIView+SDAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 436FB25308EB22F409C1C68B44E9FEAD /* UIView+SDAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63F65960B7F478F76824AC5B60F16810 /* Pods-YWModuleCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DD13544707BC60D9DAB87CDFFC5876 /* Pods-YWModuleCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74DCBC98B76908869FD23A65B6645252 /* UITableView+SDAutoTableViewCellHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = B4839701DF7F88E61D0AAC272C786873 /* UITableView+SDAutoTableViewCellHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75BCFE6758CA4E41E2ED30DF28E3A869 /* GVUserDefaults-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F4222760C4F528DCDD9F00C23577E5 /* GVUserDefaults-dummy.m */; };
-		824870F519CB0826C1156BA0B1EBD2F2 /* SDAutoLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B53ADC48702AE06E755958203AC86AD /* SDAutoLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DC3B181DE711A0BED339FBAAE4E1DC7 /* Pods-YWModuleCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 698B224A697BF4BE672FED51B2DD5B6F /* Pods-YWModuleCategory-dummy.m */; };
-		B7A2289E15946AC15A55C14B62FDE6D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BCD5541CA37B64DFDF167614CF9A6307 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E051E36C30C1D9BCAA87D5F79CDCE4 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		01686953CD3D80119BE2E79E920E21C0 /* SDAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1AEDB888BF86B3FE197CBC1BBDD034 /* SDAutoLayout-dummy.m */; };
+		4F7A7E7060578A2E22141D37FCD0E99C /* UIView+SDAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C744CD47FEB98E06DFE62F1942C5F127 /* UIView+SDAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74DCBC98B76908869FD23A65B6645252 /* UITableView+SDAutoTableViewCellHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = 566BF7518EC5A3B9D092F505182B4939 /* UITableView+SDAutoTableViewCellHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		824870F519CB0826C1156BA0B1EBD2F2 /* SDAutoLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B66DD9AA1C76A5E97D07B368573DFC9B /* SDAutoLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A404569F7F5961F800BFC994BBA39CAE /* Pods-YWModuleCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 698B224A697BF4BE672FED51B2DD5B6F /* Pods-YWModuleCategory-dummy.m */; };
+		AA3B8AA4DFF1A22B64A78B5EDD3EBD6E /* Pods-YWModuleCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DD13544707BC60D9DAB87CDFFC5876 /* Pods-YWModuleCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCD5541CA37B64DFDF167614CF9A6307 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEAC63C3D2EB7CC675D7073F6A56FA7 /* UITableView+SDAutoTableViewCellHeight.m */; };
 		BD9EE35640A512ECECEAB7B25CB783B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D2B67B0AD9D2BB06A45268778DC5CC3F /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AB955D468120965E14E565F3525297BF /* UIView+SDAutoLayout.m */; };
-		FB0822F79D370CD5CF7C51979A0271BE /* SDAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B973F11BBD0580DFA61264FA7FDBACC6 /* SDAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD8CE4AD25EFF1E99C41394E8B5A7F43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D2B67B0AD9D2BB06A45268778DC5CC3F /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 224A2188B2C3EC7C9AD2D2A4266B6E3B /* UIView+SDAutoLayout.m */; };
+		FB0822F79D370CD5CF7C51979A0271BE /* SDAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E534DB760FD8E509E7B89FD162B12C8 /* SDAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		51F593412BDF2E8EF675D03F5F247E57 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AD364BEC9F48BB6838C4913361D55A9F;
-			remoteInfo = GVUserDefaults;
-		};
-		EA813A54034EDA1684834DF1F7477AD5 /* PBXContainerItemProxy */ = {
+		AC9161337E88C6E9568B9729DBDE0358 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -43,47 +31,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		004791254F9B0DF6CB18C1AA671C9F6E /* GVUserDefaults.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GVUserDefaults.xcconfig; sourceTree = "<group>"; };
-		10D97FFB110E70F26FB267F1AF4B9BF6 /* GVUserDefaults-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GVUserDefaults-Info.plist"; sourceTree = "<group>"; };
+		078004256BF6C4E2A20E68851F9B9904 /* SDAutoLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDAutoLayout-Info.plist"; sourceTree = "<group>"; };
+		0CEAC63C3D2EB7CC675D7073F6A56FA7 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+SDAutoTableViewCellHeight.m"; path = "SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
 		15CE07E23FC3D2374177A8105734E452 /* Pods_YWModuleCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YWModuleCategory.framework; path = "Pods-YWModuleCategory.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		166FF5A07B9FB710359EF66EA155A839 /* SDAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDAutoLayout-prefix.pch"; sourceTree = "<group>"; };
-		1DD5068E4C2FDEE75201D8FFFBCE8CB9 /* GVUserDefaults.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GVUserDefaults.modulemap; sourceTree = "<group>"; };
+		2239F6E40BA20DCD29B958AF1D124AA8 /* SDAutoLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDAutoLayout.xcconfig; sourceTree = "<group>"; };
+		224A2188B2C3EC7C9AD2D2A4266B6E3B /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SDAutoLayout.m"; path = "SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
 		2D24B4853EF5CE5AD7D4FA5E183BD6E2 /* SDAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDAutoLayout.framework; path = SDAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3C5BB4C7B71BB1C5829415DA9FA27D35 /* Pods-YWModuleCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YWModuleCategory-Info.plist"; sourceTree = "<group>"; };
 		3D6B80D6BC5D256F9C2387FDC1E97936 /* Pods-YWModuleCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YWModuleCategory.modulemap"; sourceTree = "<group>"; };
-		436FB25308EB22F409C1C68B44E9FEAD /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SDAutoLayout.h"; path = "SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
 		47117CD435BF4CE8DA80FB28844863F7 /* Pods-YWModuleCategory-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YWModuleCategory-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6520ED71E3A7F7D58E7EB0E972666F0F /* SDAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDAutoLayout-dummy.m"; sourceTree = "<group>"; };
+		566BF7518EC5A3B9D092F505182B4939 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+SDAutoTableViewCellHeight.h"; path = "SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		5830ABB8554F580498EC18E7ECE4D065 /* SDAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDAutoLayout-prefix.pch"; sourceTree = "<group>"; };
 		698B224A697BF4BE672FED51B2DD5B6F /* Pods-YWModuleCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YWModuleCategory-dummy.m"; sourceTree = "<group>"; };
 		79DD13544707BC60D9DAB87CDFFC5876 /* Pods-YWModuleCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YWModuleCategory-umbrella.h"; sourceTree = "<group>"; };
-		7E6D9C048E663025596D5F20995BECBB /* SDAutoLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDAutoLayout.xcconfig; sourceTree = "<group>"; };
+		7B1AEDB888BF86B3FE197CBC1BBDD034 /* SDAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDAutoLayout-dummy.m"; sourceTree = "<group>"; };
+		7E534DB760FD8E509E7B89FD162B12C8 /* SDAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAutoLayout.h; path = SDAutoLayoutDemo/SDAutoLayout/SDAutoLayout.h; sourceTree = "<group>"; };
 		816B581A583032F98F212E92E1806BB4 /* Pods-YWModuleCategory-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YWModuleCategory-acknowledgements.plist"; sourceTree = "<group>"; };
-		882DAB4C5E6D1C801671D6408957C1E3 /* SDAutoLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDAutoLayout.modulemap; sourceTree = "<group>"; };
-		8BBDA48E3DAA3B7F72DC088CA92A4533 /* GVUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GVUserDefaults.m; path = GVUserDefaults/GVUserDefaults.m; sourceTree = "<group>"; };
-		99F4222760C4F528DCDD9F00C23577E5 /* GVUserDefaults-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GVUserDefaults-dummy.m"; sourceTree = "<group>"; };
-		9B53ADC48702AE06E755958203AC86AD /* SDAutoLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDAutoLayout-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F9CCDFCE59E4DA59BA24FB94ADEEB9E /* GVUserDefaults-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GVUserDefaults-umbrella.h"; sourceTree = "<group>"; };
+		9E6208FD5B26FA12322847DE7852272E /* SDAutoLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDAutoLayout.modulemap; sourceTree = "<group>"; };
 		A1389CC1E182A8B59AFB84A6E2371DA3 /* Pods-YWModuleCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWModuleCategory.release.xcconfig"; sourceTree = "<group>"; };
-		AB955D468120965E14E565F3525297BF /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SDAutoLayout.m"; path = "SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
-		B4839701DF7F88E61D0AAC272C786873 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+SDAutoTableViewCellHeight.h"; path = "SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
-		B9059712611CC1401783300DD3E99188 /* GVUserDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GVUserDefaults.framework; path = GVUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B973F11BBD0580DFA61264FA7FDBACC6 /* SDAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAutoLayout.h; path = SDAutoLayoutDemo/SDAutoLayout/SDAutoLayout.h; sourceTree = "<group>"; };
-		C0D6D4CAE3941176743346836690D094 /* GVUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVUserDefaults.h; path = GVUserDefaults/GVUserDefaults.h; sourceTree = "<group>"; };
-		C26D40A551086B213B9D9F4526ADCF28 /* SDAutoLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDAutoLayout-Info.plist"; sourceTree = "<group>"; };
+		B66DD9AA1C76A5E97D07B368573DFC9B /* SDAutoLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDAutoLayout-umbrella.h"; sourceTree = "<group>"; };
+		C744CD47FEB98E06DFE62F1942C5F127 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SDAutoLayout.h"; path = "SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
 		CE76D2EFF3A4191091AAA9EF50F49676 /* Pods-YWModuleCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWModuleCategory.debug.xcconfig"; sourceTree = "<group>"; };
-		E4E051E36C30C1D9BCAA87D5F79CDCE4 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+SDAutoTableViewCellHeight.m"; path = "SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
 		EA8F3BF91649063C3E154F391AFC0ADB /* Pods-YWModuleCategory-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YWModuleCategory-frameworks.sh"; sourceTree = "<group>"; };
-		EEA42FE859EE6FDC7B621E9455A42A8D /* GVUserDefaults-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GVUserDefaults-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		882AB769E63DE3D713E4C4FB65DD3437 /* Frameworks */ = {
+		28F6BDB9C87C2CB7811B03A3C8BF4017 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7A2289E15946AC15A55C14B62FDE6D7 /* Foundation.framework in Frameworks */,
+				CD8CE4AD25EFF1E99C41394E8B5A7F43 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,17 +74,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE3B9682CCA2E8DC0B48270344427B5C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				35F6718EDBEEE12863616EE81C63D894 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B9970D55F1B10B9CACF12A7808BDA63 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E6208FD5B26FA12322847DE7852272E /* SDAutoLayout.modulemap */,
+				2239F6E40BA20DCD29B958AF1D124AA8 /* SDAutoLayout.xcconfig */,
+				7B1AEDB888BF86B3FE197CBC1BBDD034 /* SDAutoLayout-dummy.m */,
+				078004256BF6C4E2A20E68851F9B9904 /* SDAutoLayout-Info.plist */,
+				5830ABB8554F580498EC18E7ECE4D065 /* SDAutoLayout-prefix.pch */,
+				B66DD9AA1C76A5E97D07B368573DFC9B /* SDAutoLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDAutoLayout";
+			sourceTree = "<group>";
+		};
+		53FA0BF5E093AE93B7BC3D04CDDE54E1 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				7E534DB760FD8E509E7B89FD162B12C8 /* SDAutoLayout.h */,
+				566BF7518EC5A3B9D092F505182B4939 /* UITableView+SDAutoTableViewCellHeight.h */,
+				0CEAC63C3D2EB7CC675D7073F6A56FA7 /* UITableView+SDAutoTableViewCellHeight.m */,
+				C744CD47FEB98E06DFE62F1942C5F127 /* UIView+SDAutoLayout.h */,
+				224A2188B2C3EC7C9AD2D2A4266B6E3B /* UIView+SDAutoLayout.m */,
+				0B9970D55F1B10B9CACF12A7808BDA63 /* Support Files */,
+			);
+			name = SDAutoLayout;
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
 		6675C8DA0193B35716CE93A50690B8B6 /* Pods-YWModuleCategory */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,35 +122,10 @@
 			path = "Target Support Files/Pods-YWModuleCategory";
 			sourceTree = "<group>";
 		};
-		A962AA0B1E999419F04368FBA6BAD77C /* Products */ = {
+		A37EA81EA0E5FE77443ED048D65EFF08 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B9059712611CC1401783300DD3E99188 /* GVUserDefaults.framework */,
-				15CE07E23FC3D2374177A8105734E452 /* Pods_YWModuleCategory.framework */,
-				2D24B4853EF5CE5AD7D4FA5E183BD6E2 /* SDAutoLayout.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B8A2D43420FEF1FFD9F759BE9E6C8BB9 /* SDAutoLayout */ = {
-			isa = PBXGroup;
-			children = (
-				B973F11BBD0580DFA61264FA7FDBACC6 /* SDAutoLayout.h */,
-				B4839701DF7F88E61D0AAC272C786873 /* UITableView+SDAutoTableViewCellHeight.h */,
-				E4E051E36C30C1D9BCAA87D5F79CDCE4 /* UITableView+SDAutoTableViewCellHeight.m */,
-				436FB25308EB22F409C1C68B44E9FEAD /* UIView+SDAutoLayout.h */,
-				AB955D468120965E14E565F3525297BF /* UIView+SDAutoLayout.m */,
-				C50C7B72DCC9F6FEA7B5D745B8841CCC /* Support Files */,
-			);
-			name = SDAutoLayout;
-			path = SDAutoLayout;
-			sourceTree = "<group>";
-		};
-		BB891507601FEB274B47D91C3D439430 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CE17F4899BA247030983B35C36382A3B /* GVUserDefaults */,
-				B8A2D43420FEF1FFD9F759BE9E6C8BB9 /* SDAutoLayout */,
+				53FA0BF5E093AE93B7BC3D04CDDE54E1 /* SDAutoLayout */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -164,29 +138,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C50C7B72DCC9F6FEA7B5D745B8841CCC /* Support Files */ = {
+		C8A0D92220A010873EFC100EC3A732BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				882DAB4C5E6D1C801671D6408957C1E3 /* SDAutoLayout.modulemap */,
-				7E6D9C048E663025596D5F20995BECBB /* SDAutoLayout.xcconfig */,
-				6520ED71E3A7F7D58E7EB0E972666F0F /* SDAutoLayout-dummy.m */,
-				C26D40A551086B213B9D9F4526ADCF28 /* SDAutoLayout-Info.plist */,
-				166FF5A07B9FB710359EF66EA155A839 /* SDAutoLayout-prefix.pch */,
-				9B53ADC48702AE06E755958203AC86AD /* SDAutoLayout-umbrella.h */,
+				15CE07E23FC3D2374177A8105734E452 /* Pods_YWModuleCategory.framework */,
+				2D24B4853EF5CE5AD7D4FA5E183BD6E2 /* SDAutoLayout.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SDAutoLayout";
-			sourceTree = "<group>";
-		};
-		CE17F4899BA247030983B35C36382A3B /* GVUserDefaults */ = {
-			isa = PBXGroup;
-			children = (
-				C0D6D4CAE3941176743346836690D094 /* GVUserDefaults.h */,
-				8BBDA48E3DAA3B7F72DC088CA92A4533 /* GVUserDefaults.m */,
-				E856215408DD11FC9030EE65402511CB /* Support Files */,
-			);
-			name = GVUserDefaults;
-			path = GVUserDefaults;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -194,8 +152,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				BB891507601FEB274B47D91C3D439430 /* Pods */,
-				A962AA0B1E999419F04368FBA6BAD77C /* Products */,
+				A37EA81EA0E5FE77443ED048D65EFF08 /* Pods */,
+				C8A0D92220A010873EFC100EC3A732BD /* Products */,
 				D7C08CFE713ABD223B51B10C4C2D1195 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -216,29 +174,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E856215408DD11FC9030EE65402511CB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1DD5068E4C2FDEE75201D8FFFBCE8CB9 /* GVUserDefaults.modulemap */,
-				004791254F9B0DF6CB18C1AA671C9F6E /* GVUserDefaults.xcconfig */,
-				99F4222760C4F528DCDD9F00C23577E5 /* GVUserDefaults-dummy.m */,
-				10D97FFB110E70F26FB267F1AF4B9BF6 /* GVUserDefaults-Info.plist */,
-				EEA42FE859EE6FDC7B621E9455A42A8D /* GVUserDefaults-prefix.pch */,
-				9F9CCDFCE59E4DA59BA24FB94ADEEB9E /* GVUserDefaults-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/GVUserDefaults";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		100AD3132A9C1ECE08391042B26BECF9 /* Headers */ = {
+		28BE885ED3E7C914FE7E6D41197560E0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0919CD095F20BF31598B74EA1CEB7351 /* GVUserDefaults-umbrella.h in Headers */,
-				4644FBDF5B0F473034065C42E3AE7BE3 /* GVUserDefaults.h in Headers */,
+				AA3B8AA4DFF1A22B64A78B5EDD3EBD6E /* Pods-YWModuleCategory-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,14 +193,6 @@
 				FB0822F79D370CD5CF7C51979A0271BE /* SDAutoLayout.h in Headers */,
 				74DCBC98B76908869FD23A65B6645252 /* UITableView+SDAutoTableViewCellHeight.h in Headers */,
 				4F7A7E7060578A2E22141D37FCD0E99C /* UIView+SDAutoLayout.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC07E6E88A62CD3F265D085CF3CC8C9D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63F65960B7F478F76824AC5B60F16810 /* Pods-YWModuleCategory-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,38 +217,19 @@
 			productReference = 2D24B4853EF5CE5AD7D4FA5E183BD6E2 /* SDAutoLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AD364BEC9F48BB6838C4913361D55A9F /* GVUserDefaults */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B0113F9E6689A2D4393CCF55EC680526 /* Build configuration list for PBXNativeTarget "GVUserDefaults" */;
-			buildPhases = (
-				100AD3132A9C1ECE08391042B26BECF9 /* Headers */,
-				8CB50A093DAC3C70BDF37A4C81B7E4FE /* Sources */,
-				EE3B9682CCA2E8DC0B48270344427B5C /* Frameworks */,
-				977B981AD8829AA0C69453959BD02015 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = GVUserDefaults;
-			productName = GVUserDefaults;
-			productReference = B9059712611CC1401783300DD3E99188 /* GVUserDefaults.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		BEC31FBE0BA1927962D754AF9166C965 /* Pods-YWModuleCategory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E2565AB05765D8B3F3D08D6529C2AB1 /* Build configuration list for PBXNativeTarget "Pods-YWModuleCategory" */;
+			buildConfigurationList = 3E958A0DF212BD99DC58019FE3673B23 /* Build configuration list for PBXNativeTarget "Pods-YWModuleCategory" */;
 			buildPhases = (
-				CC07E6E88A62CD3F265D085CF3CC8C9D /* Headers */,
-				28C0F1A7A7E56CA1BDA27AB2D426C109 /* Sources */,
-				882AB769E63DE3D713E4C4FB65DD3437 /* Frameworks */,
-				5E703C3AF0C8305BBF7CA948D451E6C7 /* Resources */,
+				28BE885ED3E7C914FE7E6D41197560E0 /* Headers */,
+				987708D560E447F28EB33DB68D9FD6A2 /* Sources */,
+				28F6BDB9C87C2CB7811B03A3C8BF4017 /* Frameworks */,
+				070BD92B96A1042C80CD89A5B89225E9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E23BE7305C2B6342FD776550E2A1D45F /* PBXTargetDependency */,
-				2E902F78530DF2ABA9DCC15C89FBB0C5 /* PBXTargetDependency */,
+				73063B1D4521E673AAD4DF9885E5F640 /* PBXTargetDependency */,
 			);
 			name = "Pods-YWModuleCategory";
 			productName = "Pods-YWModuleCategory";
@@ -330,18 +246,17 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = A962AA0B1E999419F04368FBA6BAD77C /* Products */;
+			productRefGroup = C8A0D92220A010873EFC100EC3A732BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD364BEC9F48BB6838C4913361D55A9F /* GVUserDefaults */,
 				BEC31FBE0BA1927962D754AF9166C965 /* Pods-YWModuleCategory */,
 				03932C47FBFD347205B2F367F78E9B63 /* SDAutoLayout */,
 			);
@@ -349,21 +264,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		070BD92B96A1042C80CD89A5B89225E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F53804D04372B1370BD341B0ED12D6E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E703C3AF0C8305BBF7CA948D451E6C7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		977B981AD8829AA0C69453959BD02015 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -373,20 +281,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		28C0F1A7A7E56CA1BDA27AB2D426C109 /* Sources */ = {
+		987708D560E447F28EB33DB68D9FD6A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DC3B181DE711A0BED339FBAAE4E1DC7 /* Pods-YWModuleCategory-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8CB50A093DAC3C70BDF37A4C81B7E4FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75BCFE6758CA4E41E2ED30DF28E3A869 /* GVUserDefaults-dummy.m in Sources */,
-				0323B4E4699BEA9C742ADAD2B13E7C6A /* GVUserDefaults.m in Sources */,
+				A404569F7F5961F800BFC994BBA39CAE /* Pods-YWModuleCategory-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,21 +302,90 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2E902F78530DF2ABA9DCC15C89FBB0C5 /* PBXTargetDependency */ = {
+		73063B1D4521E673AAD4DF9885E5F640 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SDAutoLayout;
 			target = 03932C47FBFD347205B2F367F78E9B63 /* SDAutoLayout */;
-			targetProxy = EA813A54034EDA1684834DF1F7477AD5 /* PBXContainerItemProxy */;
-		};
-		E23BE7305C2B6342FD776550E2A1D45F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GVUserDefaults;
-			target = AD364BEC9F48BB6838C4913361D55A9F /* GVUserDefaults */;
-			targetProxy = 51F593412BDF2E8EF675D03F5F247E57 /* PBXContainerItemProxy */;
+			targetProxy = AC9161337E88C6E9568B9729DBDE0358 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		00908FCFAAC0FC5C92A90BC323F59948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE76D2EFF3A4191091AAA9EF50F49676 /* Pods-YWModuleCategory.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YWModuleCategory/Pods-YWModuleCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YWModuleCategory/Pods-YWModuleCategory.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		139C1211550CBA3590CFCE1AF2B317F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1389CC1E182A8B59AFB84A6E2371DA3 /* Pods-YWModuleCategory.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YWModuleCategory/Pods-YWModuleCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YWModuleCategory/Pods-YWModuleCategory.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -480,7 +448,7 @@
 		};
 		71B73C3DE9FD46C673F7169E037D0D07 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E6D9C048E663025596D5F20995BECBB /* SDAutoLayout.xcconfig */;
+			baseConfigurationReference = 2239F6E40BA20DCD29B958AF1D124AA8 /* SDAutoLayout.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -577,119 +545,9 @@
 			};
 			name = Debug;
 		};
-		8ED8733AAAF642CC96D9B259FD3A0E2F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 004791254F9B0DF6CB18C1AA671C9F6E /* GVUserDefaults.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GVUserDefaults/GVUserDefaults-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GVUserDefaults/GVUserDefaults-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/GVUserDefaults/GVUserDefaults.modulemap";
-				PRODUCT_MODULE_NAME = GVUserDefaults;
-				PRODUCT_NAME = GVUserDefaults;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		96B564DD1069421D27332AFFF6E92091 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1389CC1E182A8B59AFB84A6E2371DA3 /* Pods-YWModuleCategory.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YWModuleCategory/Pods-YWModuleCategory-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YWModuleCategory/Pods-YWModuleCategory.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B3E21987F5F148B9E124EFA3C01CE2A7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE76D2EFF3A4191091AAA9EF50F49676 /* Pods-YWModuleCategory.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YWModuleCategory/Pods-YWModuleCategory-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YWModuleCategory/Pods-YWModuleCategory.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		BA726A87FB0CC268704907DB6110F065 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E6D9C048E663025596D5F20995BECBB /* SDAutoLayout.xcconfig */;
+			baseConfigurationReference = 2239F6E40BA20DCD29B958AF1D124AA8 /* SDAutoLayout.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -721,40 +579,6 @@
 			};
 			name = Debug;
 		};
-		C2562607DF06CC52A2FF56FD343ABEAA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 004791254F9B0DF6CB18C1AA671C9F6E /* GVUserDefaults.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GVUserDefaults/GVUserDefaults-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GVUserDefaults/GVUserDefaults-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/GVUserDefaults/GVUserDefaults.modulemap";
-				PRODUCT_MODULE_NAME = GVUserDefaults;
-				PRODUCT_NAME = GVUserDefaults;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -767,11 +591,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E2565AB05765D8B3F3D08D6529C2AB1 /* Build configuration list for PBXNativeTarget "Pods-YWModuleCategory" */ = {
+		3E958A0DF212BD99DC58019FE3673B23 /* Build configuration list for PBXNativeTarget "Pods-YWModuleCategory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3E21987F5F148B9E124EFA3C01CE2A7 /* Debug */,
-				96B564DD1069421D27332AFFF6E92091 /* Release */,
+				00908FCFAAC0FC5C92A90BC323F59948 /* Debug */,
+				139C1211550CBA3590CFCE1AF2B317F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -781,15 +605,6 @@
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B0113F9E6689A2D4393CCF55EC680526 /* Build configuration list for PBXNativeTarget "GVUserDefaults" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C2562607DF06CC52A2FF56FD343ABEAA /* Debug */,
-				8ED8733AAAF642CC96D9B259FD3A0E2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
