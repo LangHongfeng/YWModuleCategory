@@ -195,7 +195,7 @@
 		0B1233D2231387520053D640 /* YWModuleCategory */ = {
 			isa = PBXGroup;
 			children = (
-				0B12346F2313B7C70053D640 /* Pods */,
+				0B12346F2313B7C70053D640 /* Classes */,
 				0B1233D3231387520053D640 /* AppDelegate.h */,
 				0B1233D4231387520053D640 /* AppDelegate.m */,
 				0B1233D6231387520053D640 /* ViewController.h */,
@@ -227,7 +227,7 @@
 			path = YWModuleCategoryUITests;
 			sourceTree = "<group>";
 		};
-		0B12346F2313B7C70053D640 /* Pods */ = {
+		0B12346F2313B7C70053D640 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				0B1234702313B7C70053D640 /* UIImage */,
@@ -245,8 +245,8 @@
 				0B1234B22313B7C70053D640 /* NSTimer */,
 				0B1234B52313B7C70053D640 /* NSObject */,
 			);
-			name = Pods;
-			path = ../../Pods;
+			name = Classes;
+			path = ../../Classes;
 			sourceTree = "<group>";
 		};
 		0B1234702313B7C70053D640 /* UIImage */ = {
