@@ -1,0 +1,20 @@
+PODS:
+  - GVUserDefaults (1.0.2)
+  - SDAutoLayout (2.2.1)
+
+DEPENDENCIES:
+  - GVUserDefaults
+  - SDAutoLayout
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GVUserDefaults
+    - SDAutoLayout
+
+SPEC CHECKSUMS:
+  GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
+  SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
+
+PODFILE CHECKSUM: 25fa9dc96f19c87802b2112754f2a6ee067bde63
+
+COCOAPODS: 1.7.5

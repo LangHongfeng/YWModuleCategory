@@ -1,0 +1,12 @@
+#第三方库的远程索引库 也必须添加，不然其他三方库找不到
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+platform :ios, ‘8.0’
+target ’YWModuleCategory’ do
+  use_frameworks!
+  pod 'SDAutoLayout'#自动布局
+  pod 'GVUserDefaults'
+end
+
+
